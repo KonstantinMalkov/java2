@@ -18,6 +18,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -43,5 +44,11 @@
       <updated>1576410218503</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="33" y="10" key="new project wizard" timestamp="1576731396763">
+      <screen x="0" y="0" width="1301" height="768" />
+    </state>
+    <state x="33" y="10" key="new project wizard/0.0.1301.768@0.0.1301.768" timestamp="1576731396763" />
   </component>
 </project>
