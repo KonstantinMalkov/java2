@@ -1,0 +1,20 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?scenebuilder-stylesheet /css/Styles.css?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox alignment="center" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.Controller">
+    <stylesheets><URL value="@css/Styles.css" /> </stylesheets>
+    <TextArea fx:id="textArea" editable="false" VBox.vgrow="ALWAYS" />
+    <HBox>
+        <TextField fx:id="textField" onAction="#sendMsg" promptText="Введите сообщение..." HBox.hgrow="ALWAYS" />
+        <Button fx:id="btn" onAction="#sendMsg" text="   " />
+    </HBox>
+</VBox>
